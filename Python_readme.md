@@ -502,6 +502,13 @@ print(sys.argv) # 获取执行命名参数列表，第一个为脚本文件名�
 
 `from datetime import datetime`
 
+##### * logging
+
+```python
+import logging
+logging.basicConfig(level=logging.INFO)
+```
+
 ##### * 正则
 
 ```python
